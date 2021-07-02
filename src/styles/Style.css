@@ -31,10 +31,32 @@ section {
   color: black;
 }
 
+.timeline-section .timeline-container {
+  border-top: 6px solid #4ecbc4;
+}
+
 .timeline-section .timeline-item {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 240px auto;
-      grid-template-columns: 240px auto;
+  -ms-grid-columns: 260px auto;
+      grid-template-columns: 260px auto;
+}
+
+.timeline-section .timeline-item .timeline-time, .timeline-section .timeline-item .timeline-description {
+  padding: 1rem;
+}
+
+.timeline-section .timeline-item .timeline-time {
+  background-color: #fafffa;
+  border-right: 3px solid #4ecbc4;
+  text-align: right;
+}
+
+.timeline-section .timeline-item .timeline-time .from {
+  margin-bottom: 10px;
+}
+
+.timeline-section .timeline-item .timeline-description {
+  text-align: left;
 }
 /*# sourceMappingURL=Style.css.map */

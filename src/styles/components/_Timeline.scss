@@ -1,9 +1,31 @@
 .timeline-section {
     .timeline-container {
+        border-top: 6px solid $light_green;
     }
 
     .timeline-item {
         display: grid;
-        grid-template-columns: 240px auto;
+        grid-template-columns: 260px auto;
+        // height: 100px;
+        // margin-bottom: 1rem;
+
+        .timeline-time, .timeline-description {
+            padding: 1rem;
+            
+        }
+
+        .timeline-time {
+            background-color: $white;
+            border-right: 3px solid $light_green;
+            text-align: right;
+
+            .from {
+                margin-bottom: 10px;
+            }
+        }
+
+        .timeline-description {
+            text-align: left;
+        }
     }
 }
