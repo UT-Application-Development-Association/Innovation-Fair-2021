@@ -1,0 +1,9 @@
+.timeline-section {
+    .timeline-container {
+    }
+
+    .timeline-item {
+        display: grid;
+        grid-template-columns: 240px auto;
+    }
+}

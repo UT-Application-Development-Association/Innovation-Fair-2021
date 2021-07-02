@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 
 div, p, span {
     font-family: $body_font;
+    font-size: calc(1rem + .05vw);;
 }
 
 code {
@@ -14,7 +15,11 @@ code {
 
 section {
     width: 100vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-  
-  
+.heading {
+    font-size: calc(2rem + 1.6vw);
+    font-weight: bold;
+}

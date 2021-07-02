@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 div, p, span {
   font-family: "Noto Sans JP", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: calc(1rem + .05vw);
 }
 
 code {
@@ -17,9 +18,23 @@ code {
 
 section {
   width: 100vw;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.heading {
+  font-size: calc(2rem + 1.6vw);
+  font-weight: bold;
 }
 
 .header-section div {
   color: black;
+}
+
+.timeline-section .timeline-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 240px auto;
+      grid-template-columns: 240px auto;
 }
 /*# sourceMappingURL=Style.css.map */
