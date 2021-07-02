@@ -1,12 +1,20 @@
 // import logo from './assets/images/logo.svg';
 import './styles/Style.css';
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <section className="jumbotron-section">jumbotron</section>
-      <header className="header">header</header>
+      <header className="header">
+        <Header url="https://www.google.com" />
+      </header>
+      <section className="sidebar-section">sidebar</section>
+      <section className="announcement-section">announcement</section>
       <section className="intro-section">intro</section>
+      <section className="themes-section">themes</section>
+      <section className="timeline-section">timeline</section>
+      <section className="hosts-section">hosts</section>
+      <section className="faq-section">FAQ</section>
     </div>
   );
 }

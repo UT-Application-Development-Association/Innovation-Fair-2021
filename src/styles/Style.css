@@ -18,4 +18,8 @@ code {
 section {
   width: 100vw;
 }
+
+.header-section div {
+  color: black;
+}
 /*# sourceMappingURL=Style.css.map */
