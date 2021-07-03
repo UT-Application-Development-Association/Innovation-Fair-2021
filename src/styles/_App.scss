@@ -1,5 +1,9 @@
 @import "global_vars";
 
+.App {
+    background-color: $white;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: $header_font;
 }
@@ -22,4 +26,5 @@ section {
 .heading {
     font-size: calc(2rem + 1.6vw);
     font-weight: bold;
+    user-select: none;
 }

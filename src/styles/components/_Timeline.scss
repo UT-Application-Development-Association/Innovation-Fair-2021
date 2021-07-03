@@ -1,3 +1,5 @@
+@import "../global_vars";
+
 .timeline-section {
     .timeline-container {
         border-top: 6px solid $light_green;
@@ -5,7 +7,7 @@
 
     .timeline-item {
         display: grid;
-        grid-template-columns: 260px auto;
+        grid-template-columns: 25% auto;
         // height: 100px;
         // margin-bottom: 1rem;
 
@@ -15,7 +17,6 @@
         }
 
         .timeline-time {
-            background-color: $white;
             border-right: 3px solid $light_green;
             text-align: right;
 

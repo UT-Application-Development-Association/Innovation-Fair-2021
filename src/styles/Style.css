@@ -3,6 +3,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+.App {
+  background-color: #fafffa;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
@@ -25,6 +44,10 @@ section {
 .heading {
   font-size: calc(2rem + 1.6vw);
   font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .header-section div {
@@ -38,8 +61,8 @@ section {
 .timeline-section .timeline-item {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 260px auto;
-      grid-template-columns: 260px auto;
+  -ms-grid-columns: 25% auto;
+      grid-template-columns: 25% auto;
 }
 
 .timeline-section .timeline-item .timeline-time, .timeline-section .timeline-item .timeline-description {
@@ -47,7 +70,6 @@ section {
 }
 
 .timeline-section .timeline-item .timeline-time {
-  background-color: #fafffa;
   border-right: 3px solid #4ecbc4;
   text-align: right;
 }
@@ -58,5 +80,65 @@ section {
 
 .timeline-section .timeline-item .timeline-description {
   text-align: left;
+}
+
+.hosts-section .main-hosts-container {
+  border-top: 6px solid #4ecbc4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.hosts-section .host-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  height: calc(200px + 2rem);
+  border-radius: 10px;
+}
+
+.hosts-section .host-card .avatar-container {
+  width: 180px;
+  height: 180px;
+  margin-right: .3rem;
+}
+
+.hosts-section .host-card .avatar-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+.hosts-section .host-card .avatar-container img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.hosts-section .host-card .host-info-container {
+  margin-left: .4rem;
+}
+
+.hosts-section .host-card .host-info-container .name {
+  text-align: center;
+}
+
+.hosts-section .host-card .host-info-container .title {
+  text-align: center;
 }
 /*# sourceMappingURL=Style.css.map */
