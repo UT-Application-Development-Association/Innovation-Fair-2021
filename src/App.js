@@ -2,6 +2,7 @@
 import './styles/Style.css';
 import Header from "./components/Header";
 import Timeline from "./components/Timeline";
+import faq from "./components/faq/faq";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         <Timeline/>
       </section>
       <section className="hosts-section container">hosts: leon</section>
-      <section className="faq-section container">FAQ: fancy https://getbootstrap.com/docs/5.0/components/accordion/</section>
+      <section className="faq-section container">
+        <faq />
+      </section>
     </div>
   );
 }
