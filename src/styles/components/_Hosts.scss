@@ -8,30 +8,41 @@
         // justify-content: space-around;
         display: grid;
         grid-template-columns: auto auto auto;
+
+        @media (max-width: 1200px){
+            grid-template-columns: auto auto;
+        }
+
+        @media (max-width: 800px){
+            grid-template-columns: auto;
+        }
         
     }
     .host-card{
         display: flex;
         flex-direction: row;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
 
         padding: 1rem;
 
         height: calc(200px + 2rem);
+        width: 100%;
         // width: 240px;
         // background-color: white;
         // border: 1px solid $dark_green;
         border-radius: 10px;
 
         .avatar-container {
-            width: 180px;
-            height: 180px;
-            margin-right: .3rem;
+            $avatar-size: calc(100px + 4vw);
+            height: $avatar-size;
+            width: $avatar-size;
+            
+            margin-right: .4rem;
 
             img {
-                width: 100%;
-                height: 100%;
+                width: $avatar-size;
+                height: $avatar-size;
                 border-radius: 50%;
                 object-fit: cover;
                 transition-duration: .3s;
@@ -43,6 +54,7 @@
         }
 
         .host-info-container {
+            justify-self: right;
             margin-left: .4rem;
             .name {
                 text-align: center;

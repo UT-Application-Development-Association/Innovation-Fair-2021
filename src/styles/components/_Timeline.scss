@@ -28,5 +28,25 @@
         .timeline-description {
             text-align: left;
         }
+
+        @media (max-width: 767px){
+            grid-template-columns: auto;
+            .timeline-time {
+                border-right: none;
+                // border-left: 3px solid $light_green;
+                border-bottom: 3px solid $light_green;
+                text-align: left;
+
+                padding: .8rem;
+
+                .from {
+                    margin-bottom: 0;
+                }
+            }
+
+            .timeline-description {
+                border-left: 3px solid $light_green;
+            }
+        }
     }
 }
