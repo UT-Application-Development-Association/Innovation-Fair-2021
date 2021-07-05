@@ -3,11 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
@@ -41,49 +36,5 @@ section {
   display: grid;
   -ms-grid-columns: 240px auto;
       grid-template-columns: 240px auto;
-}
-
-.Faq {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-h1 {
-  text-align: center;
-  margin: 2rem 0 4rem 0;
-}
-
-.accordion {
-  max-width: 600px;
-  margin: 2rem auto;
-}
-
-.accordion-item :hover {
-  background-color: #16545d;
-  opacity: 0.6;
-}
-
-.accordion-item .accordion-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  cursor: pointer;
-  background-color: #16545d;
-  padding: 1rem;
-  color: white;
-}
-
-.accordion-item .accordion-content {
-  background-color: white;
-  padding: 1rem;
 }
 /*# sourceMappingURL=Style.css.map */

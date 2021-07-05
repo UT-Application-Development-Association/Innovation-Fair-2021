@@ -1,8 +1,8 @@
-@import "../global_vars";
+@import "styles/_global_vars.scss";
 
 $accordion-padding: 1rem;
 
-.Faq{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;

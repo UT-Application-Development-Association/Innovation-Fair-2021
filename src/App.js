@@ -2,7 +2,7 @@
 import './styles/Style.css';
 import Header from "./components/Header";
 import Timeline from "./components/Timeline";
-import Faq from "./components/faq/faq";
+import faq from "./components/faq/faq";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       </section>
       <section className="hosts-section container">hosts: leon</section>
       <section className="faq-section container">
-      <Faq />
+        <faq />
       </section>
     </div>
   );
