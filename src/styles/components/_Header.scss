@@ -1,5 +1,29 @@
-.header-section {
-    div {
-        color: black;
+.navbar-section{
+    color:black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .button-container{
+        display: flex;
+        list-style-type: none;
+        padding-top: 15px;
+
+        .jianjie{
+            padding: 15px;
+        }
+        .shijian{
+            padding: 15px;
+        }
+        .pingshen{
+            padding: 15px;
+        }
+        .gonggao{
+            padding: 15px;
+        }
+        .baoming{
+            padding: 15px;
+        }
     }
 }

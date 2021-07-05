@@ -27,8 +27,46 @@ section {
   font-weight: bold;
 }
 
-.header-section div {
+.navbar-section {
   color: black;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-section .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.navbar-section .button-container .jianjie {
+  padding: 15px;
+}
+
+.navbar-section .button-container .shijian {
+  padding: 15px;
+}
+
+.navbar-section .button-container .pingshen {
+  padding: 15px;
+}
+
+.navbar-section .button-container .gonggao {
+  padding: 15px;
+}
+
+.navbar-section .button-container .baoming {
+  padding: 15px;
 }
 
 .timeline-section .timeline-item {
@@ -36,5 +74,11 @@ section {
   display: grid;
   -ms-grid-columns: 240px auto;
       grid-template-columns: 240px auto;
+}
+
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=Style.css.map */
