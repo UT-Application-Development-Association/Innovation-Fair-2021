@@ -1,0 +1,136 @@
+@import "../global_vars";
+$box-size: 250px;
+$paddingTheme: 15px;
+$marginTheme: 40px;
+@use "compass/css3";
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.Themebox{
+  height: 350px;
+  position: relative;
+  border: none;
+  text-align: center;
+  .Themes
+  {
+    width: 1000px;
+    height: 300px;
+    padding: 5px;
+    // border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  
+    .stitle{
+      text-align: center;
+    }
+    
+    img{
+        @include border-radius(25px);
+        width: $box-size;     
+        height: $box-size;
+        padding: $paddingTheme;
+        margin: $marginTheme;
+        align-items: baseline;
+    }
+
+    .ThemeA{
+      position: relative;
+      #Atitle{
+        @include border-radius(25px);
+        width: 250px;
+        height: 250px;
+        background-color: $yellow;
+        // box-sizing: border-box;
+        padding: $paddingTheme;
+        margin: $marginTheme;
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;      
+      }
+    }
+
+    .ThemeA:hover #Atitle{
+      opacity: 1;
+    }
+
+    .ThemeB{
+      position: relative;
+      #Btitle{
+        @include border-radius(25px);
+        width: $box-size;
+        height: $box-size;
+        background-color: $red;
+        // box-sizing: border-box;
+        padding: $paddingTheme;
+        margin: $marginTheme;
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;   
+      }
+    }
+
+    .ThemeB:hover #Btitle{
+      opacity: 1;
+    }
+
+    .ThemeC{
+      position: relative;
+      #Ctitle{
+        @include border-radius(25px);
+        width: $box-size;
+        height: $box-size;
+        background-color: $light_green;
+        // box-sizing: border-box;
+        padding: $paddingTheme;
+        margin: $marginTheme;
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;   
+      }
+    }
+
+    .ThemeC:hover #Ctitle{
+      opacity: 1;
+    }
+
+    p{
+      text-align: center;
+      padding: 5px;
+      font-size: 20px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+
+  }
+
+
+}
