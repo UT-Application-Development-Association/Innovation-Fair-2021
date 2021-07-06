@@ -3,10 +3,7 @@ import './styles/Style.css';
 import Header from "./components/Header";
 import Timeline from "./components/Timeline";
 import Faq from "./components/faq/faq";
-<<<<<<< Updated upstream
-=======
 import Themes from './components/Themes';
->>>>>>> Stashed changes
 
 function App() {
   return (

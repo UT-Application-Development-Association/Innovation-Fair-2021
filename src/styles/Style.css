@@ -8,14 +8,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
-<<<<<<< Updated upstream
-=======
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
->>>>>>> Stashed changes
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
@@ -94,8 +91,6 @@ h1 {
   background-color: white;
   padding: 1rem;
 }
-<<<<<<< Updated upstream
-=======
 
 @use "compass/css3";
 .Themebox {
@@ -226,5 +221,4 @@ h1 {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
->>>>>>> Stashed changes
 /*# sourceMappingURL=Style.css.map */
