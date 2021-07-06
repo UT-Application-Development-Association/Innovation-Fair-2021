@@ -1,7 +1,7 @@
 import React from 'react';
 import Accordion from './Accordion.js';
 import { faqData } from './faq_contents';
-import 'src/styles/components/_Faq.css';
+import '../../styles/Style.css';
 
 const faq = () => {
   return (
