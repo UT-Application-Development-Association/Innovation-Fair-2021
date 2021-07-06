@@ -3,6 +3,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
@@ -27,46 +37,80 @@ section {
   font-weight: bold;
 }
 
-.navbar-section {
-  color: black;
-  height: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
-.navbar-section .button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  padding-top: 15px;
+.navbar .nav-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  color: #16545d;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4ecbc4), to(#4ecbc4));
+  background-image: linear-gradient(#4ecbc4 0%, #4ecbc4 100%);
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-size: 1px 3px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
-.navbar-section .button-container .jianjie {
-  padding: 15px;
+.navbar .nav-link:hover {
+  background-size: 1px 15px;
 }
 
-.navbar-section .button-container .shijian {
-  padding: 15px;
+.navbar .nav-link:active {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
 }
 
-.navbar-section .button-container .pingshen {
-  padding: 15px;
+.navbar .sign-up {
+  position: relative;
+  margin: auto;
+  padding: 5px 22px;
+  text-decoration: none;
+  color: #16545d;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
 }
 
-.navbar-section .button-container .gonggao {
-  padding: 15px;
+.navbar .sign-up:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 20px;
+  background: rgba(78, 203, 196, 0.5);
+  width: 42px;
+  height: 42px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
-.navbar-section .button-container .baoming {
-  padding: 15px;
+.navbar .sign-up span {
+  position: relative;
+  font-weight: bolder;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.navbar .sign-up:hover:before {
+  width: 100%;
+  background: rgba(78, 203, 196, 0.6);
+}
+
+.navbar .sign-up:active {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
 }
 
 .timeline-section .timeline-item {
@@ -76,9 +120,61 @@ section {
       grid-template-columns: 240px auto;
 }
 
-.about-section {
+.intro-section .intro-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  .intro-section .intro-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.intro-section .banner-image {
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .intro-section .banner-image {
+    width: 90%;
+  }
+}
+
+.intro-section .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro-section .description h2 {
+  font-size: calc(3rem + 1vw);
+  font-weight: bolder;
+  background: -webkit-gradient(linear, left top, right top, from(#16545d), color-stop(#4ecbc4), color-stop(#ffe76f), to(#ff6a6b));
+  background: linear-gradient(to right, #16545d, #4ecbc4, #ffe76f, #ff6a6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=Style.css.map */

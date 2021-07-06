@@ -8,7 +8,7 @@ import Intro from "./components/Intro";
 function App() {
   return (
     <div className="App">
-      <div className="header-section container">
+      <div className="header-section">
         <Header/>
       </div>
       {/* <section className="sidebar-section">sidebar</section> */}

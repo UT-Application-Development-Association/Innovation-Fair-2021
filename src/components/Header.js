@@ -1,18 +1,25 @@
 import React from "react";
+import brandImg from "../assets/images/favicon.png";
 
 export default function Header(props) {
     return (
-      <nav className="navbar-section">
-        <a className="logo-container" href="https://www.google.ca/">
-          <img className="logo-image" src="" alt='Innovation Fair'/>
-        </a>
-        <ul className="button-container">
-          <li className="jianjie" href="">简介</li>
-          <li className="shijian" href="#timeline">时间线</li>
-          <li className="pingshen" href="">评审</li>
-          <li className="gonggao" href="">公告</li>
-          <li className="baoming" href="">报名！</li>
-        </ul>
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+        <img className="navbar-brand logo-image ml-2" src={brandImg} alt="" />
+          {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> */}
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="navbar-nav me-auto mb-2 mb-lg-0">
+              <a class="nav-link" href="#Introduction">Introduction</a>
+              <a class="nav-link" href="#Timeline">Timeline</a>
+              <a class="nav-link" href="#Hosts">Hosts</a>
+            </div>
+          </div>
+          <a href="#" class="sign-up">
+            <span>Sign Up</span>
+          </a>
+        </div>
       </nav>
     );
 }
