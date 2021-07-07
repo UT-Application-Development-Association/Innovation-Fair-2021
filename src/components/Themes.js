@@ -28,6 +28,11 @@ function Themes() {
 
           <div className="theme-title-container">
             <h5>Mental and Physical Health</h5>
+            <p>
+              Mental and Physical Health
+              focuses on providing technical solutions to help integrate and enhance post-pandemic
+              individual’s well-being.
+            </p>
           </div>
         </div>
 
@@ -38,6 +43,11 @@ function Themes() {
 
           <div className="theme-title-container">
             <h5>Productivity and Organization</h5>
+            <p>
+              Productivity and Organization seeks to find technical solutions that
+              not only enhances individual student’s productivity but also expands to the wider student
+              community.
+            </p>
           </div>
         </div>
         <div className="theme-3 theme-item">
@@ -47,6 +57,10 @@ function Themes() {
 
           <div className="theme-title-container">
             <h5>Community Building</h5>
+            <p>
+              Community Building asks our participants to provide technical solutions that
+              help our college transition better in post-pandemic.
+            </p>
           </div>
         </div>
       </div>

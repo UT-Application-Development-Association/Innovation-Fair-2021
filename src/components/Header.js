@@ -11,12 +11,14 @@ export default function Header(props) {
           </button> */}
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <div class="navbar-nav me-auto mb-2 mb-lg-0">
-              <a class="nav-link" href="#Introduction">Introduction</a>
-              <a class="nav-link" href="#Timeline">Timeline</a>
-              <a class="nav-link" href="#Hosts">Hosts</a>
+              <a class="nav-link" href="#introduction">Introduction</a>
+              <a class="nav-link" href="#timeline">Timeline</a>
+              <a class="nav-link" href="#hosts">Hosts</a>
+              <a class="nav-link" href="#FAQ">FAQs</a>
+              <a class="nav-link" href="https://if2020.uoftada.com/" target="_blank" rel="noreferrer">IF2020</a>
             </div>
           </div>
-          <a href="#" class="sign-up">
+          <a href="https://www.wjx.cn/vm/toPi2x3.aspx" class="sign-up" target="_blank" rel="noreferrer">
             <span>Sign Up</span>
           </a>
         </div>

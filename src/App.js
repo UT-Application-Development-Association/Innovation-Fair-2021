@@ -18,7 +18,7 @@ function App() {
         <Header/>
       </div>
       <main>
-        <section className="intro-section">
+        <section className="intro-section" id="introduction">
           <Intro/>
         </section>
         <section className="themes-section">
@@ -27,10 +27,10 @@ function App() {
         <section className="timeline-section" id="timeline">
           <Timeline/>
         </section>
-        <section className="hosts-section">
+        <section className="hosts-section" id="hosts">
           <Hosts/>
         </section>
-        <section className="faq-section">
+        <section className="faq-section" id="FAQ">
           <FAQ />
         </section>
       </main>
