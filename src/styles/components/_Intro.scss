@@ -1,0 +1,39 @@
+@import "../global_vars";
+
+.intro-section {
+
+    .intro-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    .banner-image{
+        width: 50%;
+        height: auto;
+
+        @media (max-width: 767px) {
+            width: 90%;
+        }
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        h2 {
+            font-size: calc(2rem + 1.6vw);
+            font-weight: bolder;
+            background: linear-gradient(to right, $dark_green, $light_green, $yellow, $red);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+}
