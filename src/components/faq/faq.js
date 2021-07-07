@@ -1,11 +1,10 @@
 import React from 'react';
 import Accordion from './Accordion.js';
 import { faqData } from './faq_contents';
-import '../../styles/Style.css';
 
-const faq = () => {
+export default function FAQ(props) {
   return (
-    <div>
+    <div className="Faq">
       <h1>FAQ</h1>
       <div className="accordion">
         {faqData.map(({ title, content }) => (
@@ -15,5 +14,3 @@ const faq = () => {
     </div>
   );
 };
-
-export default faq;

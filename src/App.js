@@ -6,8 +6,9 @@ import './styles/Style.css';
 
 import Header from "./components/Header";
 import Timeline from "./components/Timeline";
+import Themes from './components/Themes';
 import Hosts from "./components/Hosts";
-import faq from "./components/faq/faq";
+import FAQ from "./components/faq/FAQ";
 import Intro from "./components/Intro";
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
       <section className="intro-section container">
         <Intro/>
       </section>
-      <section className="themes-section container">themes: fancy</section>
+      <section className="themes-section container">
+        <Themes />
+      </section>
       <section className="timeline-section container" id="timeline">
         <Timeline/>
       </section>
@@ -29,7 +32,7 @@ function App() {
         <Hosts/>
       </section>
       <section className="faq-section container">
-        <faq />
+        <FAQ />
       </section>
     </div>
   );

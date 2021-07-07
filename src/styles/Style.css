@@ -3,26 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
 .App {
   background-color: #fafffa;
 }
@@ -182,6 +162,180 @@ section {
   .timeline-section .timeline-item .timeline-description {
     border-left: 3px solid #4ecbc4;
   }
+}
+
+.Faq {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.accordion-item :hover {
+  background-color: #16545d;
+  opacity: 0.6;
+}
+
+.accordion-item .accordion-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  background-color: #16545d;
+  padding: 1rem;
+  color: white;
+}
+
+.accordion-item .accordion-content {
+  background-color: white;
+  padding: 1rem;
+}
+
+@use "compass/css3";
+.Themebox {
+  height: 350px;
+  position: relative;
+  border: none;
+  text-align: center;
+}
+
+.Themebox .Themes {
+  width: 1000px;
+  height: 300px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.Themebox .Themes .stitle {
+  text-align: center;
+}
+
+.Themebox .Themes img {
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  margin: 40px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.Themebox .Themes .ThemeA {
+  position: relative;
+}
+
+.Themebox .Themes .ThemeA #Atitle {
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  background-color: #ffe76f;
+  padding: 15px;
+  margin: 40px;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Themebox .Themes .ThemeA:hover #Atitle {
+  opacity: 1;
+}
+
+.Themebox .Themes .ThemeB {
+  position: relative;
+}
+
+.Themebox .Themes .ThemeB #Btitle {
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  background-color: #ff6a6b;
+  padding: 15px;
+  margin: 40px;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Themebox .Themes .ThemeB:hover #Btitle {
+  opacity: 1;
+}
+
+.Themebox .Themes .ThemeC {
+  position: relative;
+}
+
+.Themebox .Themes .ThemeC #Ctitle {
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  background-color: #4ecbc4;
+  padding: 15px;
+  margin: 40px;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Themebox .Themes .ThemeC:hover #Ctitle {
+  opacity: 1;
+}
+
+.Themebox .Themes p {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .hosts-section .main-hosts-container {
