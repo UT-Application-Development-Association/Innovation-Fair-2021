@@ -4,7 +4,7 @@ import TimelineItem from "./TimelineItem";
 
 export default function Timeline(props) {
     return (
-      <div>
+      <div className="container">
         <Heading text="TIMELINE" />
         <div className="timeline-container">
             <TimelineItem from="2021-07-02" to="2021-07-16" title="Team Sign-up Period" description="Registration opens for participants." />

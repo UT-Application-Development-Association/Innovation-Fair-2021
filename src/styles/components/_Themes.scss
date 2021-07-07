@@ -1,137 +1,186 @@
-@import "../global_vars";
+@import '../global_vars';
 
-$box-size: 250px;
-$paddingTheme: 15px;
-$marginTheme: 40px;
+//
+// $paddingTheme: 15px;
+// $marginTheme: 40px;
 @use "compass/css3";
 
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+  border-radius: $radius;
 }
 
-.Themebox{
-  height: 350px;
+.themes-container {
   position: relative;
-  border: none;
   text-align: center;
-  .Themes
-  {
-    width: 1000px;
-    height: 300px;
-    padding: 5px;
-    // border: 10px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    
-  
-    .stitle{
-      text-align: center;
-    }
-    
-    img{
-        @include border-radius(25px);
-        width: $box-size;     
-        height: $box-size;
-        padding: $paddingTheme;
-        margin: $marginTheme;
-        align-items: baseline;
-    }
-
-    .ThemeA{
-      position: relative;
-      #Atitle{
-        @include border-radius(25px);
-        width: 250px;
-        height: 250px;
-        background-color: $yellow;
-        // box-sizing: border-box;
-        padding: $paddingTheme;
-        margin: $marginTheme;
-        opacity: 0;
-        transition: .5s ease;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;      
-      }
-    }
-
-    .ThemeA:hover #Atitle{
-      opacity: 1;
-    }
-
-    .ThemeB{
-      position: relative;
-      #Btitle{
-        @include border-radius(25px);
-        width: $box-size;
-        height: $box-size;
-        background-color: $red;
-        // box-sizing: border-box;
-        padding: $paddingTheme;
-        margin: $marginTheme;
-        opacity: 0;
-        transition: .5s ease;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;   
-      }
-    }
-
-    .ThemeB:hover #Btitle{
-      opacity: 1;
-    }
-
-    .ThemeC{
-      position: relative;
-      #Ctitle{
-        @include border-radius(25px);
-        width: $box-size;
-        height: $box-size;
-        background-color: $light_green;
-        // box-sizing: border-box;
-        padding: $paddingTheme;
-        margin: $marginTheme;
-        opacity: 0;
-        transition: .5s ease;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;   
-      }
-    }
-
-    .ThemeC:hover #Ctitle{
-      opacity: 1;
-    }
-
-    p{
-      text-align: center;
-      padding: 5px;
-      font-size: 20px;
-      position: relative;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
 
 
+  .themes-intro {
+    border-top: 6px solid $light_green;
+    padding: 1rem;
+    letter-spacing: 1px;
+    text-align: start;
   }
 
+  .themes {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    object-fit: cover;
 
+    @media(max-width: 767px){
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .theme-1 .img-container {
+        background: linear-gradient(to right, $light_green, $dark_green, $white);
+    }
+
+    .theme-2 .img-container {
+      background: linear-gradient(to right, $white, $red, $white);
+    }
+
+    .theme-3 .img-container {
+      background: linear-gradient(to right, $white, $light_green, $yellow);
+    }
+
+
+    .img-container {
+      border-radius: 25px;
+      $box-size: 250px;
+      width: $box-size;
+      height: $box-size;
+
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5px;
+
+      object-fit: cover;
+
+      .theme-img {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .theme-title-container {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      h5 {
+        font-weight: bold;
+
+        padding-bottom: 6px;
+        
+        background-repeat: repeat-x;
+        background-position: 0 100%;
+        background-size: 1px 3px;
+        transition: all .3s ease;
+
+        &:hover {
+            background-size: 1px 15px;
+        }
+
+        &:active {
+            transform: scale(.96);
+        }
+      }
+    }
+
+    .theme-1 h5 {
+      background-image: linear-gradient($light_green 0%, $light_green 100%);
+    }
+    .theme-2 h5 {
+      background-image: linear-gradient($red 0%, $red 100%);
+    }
+    .theme-3 h5 {
+      background-image: linear-gradient($yellow 0%, $yellow 100%);
+    }
+
+  //   .ThemeA {
+  //     position: relative;
+  //     #Atitle {
+  //       @include border-radius(25px);
+  //       width: 250px;
+  //       height: 250px;
+  //       background-color: $yellow;
+  //       // box-sizing: border-box;
+  //       padding: $paddingTheme;
+  //       margin: $marginTheme;
+  //       opacity: 0;
+  //       transition: 0.5s ease;
+  //       position: absolute;
+  //       top: 0;
+  //       bottom: 0;
+  //       left: 0;
+  //       right: 0;
+  //     }
+  //   }
+
+  //   .ThemeA:hover #Atitle {
+  //     opacity: 1;
+  //   }
+
+  //   .ThemeB {
+  //     position: relative;
+  //     #Btitle {
+  //       @include border-radius(25px);
+  //       width: $box-size;
+  //       height: $box-size;
+  //       background-color: $red;
+  //       // box-sizing: border-box;
+  //       padding: $paddingTheme;
+  //       margin: $marginTheme;
+  //       opacity: 0;
+  //       transition: 0.5s ease;
+  //       position: absolute;
+  //       top: 0;
+  //       bottom: 0;
+  //       left: 0;
+  //       right: 0;
+  //     }
+  //   }
+
+  //   .ThemeB:hover #Btitle {
+  //     opacity: 1;
+  //   }
+
+  //   .ThemeC {
+  //     position: relative;
+  //     #Ctitle {
+  //       @include border-radius(25px);
+  //       width: $box-size;
+  //       height: $box-size;
+  //       background-color: $light_green;
+  //       // box-sizing: border-box;
+  //       padding: $paddingTheme;
+  //       margin: $marginTheme;
+  //       opacity: 0;
+  //       transition: 0.5s ease;
+  //       position: absolute;
+  //       top: 0;
+  //       bottom: 0;
+  //       left: 0;
+  //       right: 0;
+  //     }
+  //   }
+
+  //   .ThemeC:hover #Ctitle {
+  //     opacity: 1;
+  //   }
+
+  //   p {
+  //     text-align: center;
+  //     padding: 5px;
+  //     font-size: 20px;
+  //     position: relative;
+  //     top: 50%;
+  //     left: 50%;
+  //     -webkit-transform: translate(-50%, -50%);
+  //     -ms-transform: translate(-50%, -50%);
+  //     transform: translate(-50%, -50%);
+  //   }
+  }
 }

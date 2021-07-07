@@ -17,23 +17,26 @@ function App() {
       <div className="header-section">
         <Header/>
       </div>
+      <main>
+        <section className="intro-section">
+          <Intro/>
+        </section>
+        <section className="themes-section">
+          <Themes />
+        </section>
+        <section className="timeline-section" id="timeline">
+          <Timeline/>
+        </section>
+        <section className="hosts-section">
+          <Hosts/>
+        </section>
+        <section className="faq-section">
+          <FAQ />
+        </section>
+      </main>
       {/* <section className="sidebar-section">sidebar</section> */}
       {/* <section className="announcement-section">announcement</section> */}
-      <section className="intro-section container">
-        <Intro/>
-      </section>
-      <section className="themes-section container">
-        <Themes />
-      </section>
-      <section className="timeline-section container" id="timeline">
-        <Timeline/>
-      </section>
-      <section className="hosts-section container">
-        <Hosts/>
-      </section>
-      <section className="faq-section container">
-        <FAQ />
-      </section>
+      
     </div>
   );
 }

@@ -3,7 +3,7 @@ import bannerImg from "../assets/images/banner.jpg"
 
 export default function Intro(props) {
     return (
-        <div className="intro-container">
+        <div className="intro-container container">
             <img className="banner-image mr-auto" src={bannerImg} alt='Innovation Fair'/>
             <div className="description mr-auto">
                 <h2 className="title">What Is IF2021?</h2>

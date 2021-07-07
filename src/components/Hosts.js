@@ -7,7 +7,7 @@ import AnonymousAvatar from "../assets/images/hosts/avatar.jpg";
 
 export default function Hosts(props) {
     return (
-      <div>
+      <div className="container">
         <Heading text="HOSTS" />
         <div className="main-hosts-container">
           <HostCard avatar={AnonymousAvatar} name="Kevin Yan" title="Senior Developer at Nielseniq" />
