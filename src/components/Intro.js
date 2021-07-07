@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../assets/images/banner.jpg"
+import bannerImg from "../assets/images/banner.jpg";
 
 export default function Intro(props) {
     return (

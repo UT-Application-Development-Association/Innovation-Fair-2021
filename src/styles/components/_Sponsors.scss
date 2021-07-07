@@ -1,0 +1,18 @@
+@import '../global_vars';
+
+.sponsors-section {
+    .sponsors {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1rem;
+
+        border-top: 6px solid $light_green;
+
+        .sponsor {
+            margin: 1rem;
+            max-width: 100%;
+        }
+    }
+}

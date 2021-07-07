@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import Heading from "./Heading";
-import mentalhealth from '../assets/images/health.jpg';
-import organization from '../assets/images/organization.jpg';
-import community from '../assets/images/community.jpg';
+import mentalhealth from "../assets/images/health.jpg";
+import organization from "../assets/images/organization.jpg";
+import community from "../assets/images/community.jpg";
 
 function Themes() {
   // mental and physical health

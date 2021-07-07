@@ -1,0 +1,85 @@
+@import "../global_vars";
+
+footer {
+    background-color: $light_green;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        @media (max-width: 767px){
+            flex-direction: column;
+        }
+
+        .utada-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // width: 500px;
+            max-width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .utada-text {
+                padding-left: 1rem;
+                position: relative;
+                font-size: larger;
+                color: black;
+                top: -3rem;
+            }
+        }
+
+        .footer-contents {
+            // max-width: 100%;
+            // width:  calc(100% - 500px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .contacts {
+                display: flex;
+                flex-direction: row;
+                padding: 2rem;
+                
+                .contact {
+                    margin: 2rem;
+                    
+                    padding: 5px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border: 3px solid white;
+                    
+                    img {
+                        width: 50px;
+                        object-fit: contain;
+                    }
+
+                    @media (max-width: 500px){
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+
+        .copyright {
+            position: absolute;
+            bottom: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            
+            font-size: small;
+
+            @media (max-width: 400px){
+                width: 90%;
+            }
+        }
+    }
+}
