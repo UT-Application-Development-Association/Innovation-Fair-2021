@@ -5,7 +5,7 @@ export default function Intro(props) {
     return (
         <div className="intro-container container">
             <img className="banner-image mr-auto" src={bannerImg} alt='Innovation Fair'/>
-            <div className="description mr-auto">
+            <div className="description mr-auto px-3">
                 <h2 className="title">What Is IF2021?</h2>
                 {/* <hr className="seperation-line"/> */}
                 <p className="description-text">

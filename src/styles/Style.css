@@ -479,35 +479,27 @@ section {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 1rem;
+  padding: 2rem;
   border-top: 6px solid #4ecbc4;
 }
 
 .sponsors-section .sponsors .sponsor {
   margin: 1rem;
   max-width: 100%;
+  width: 320px;
+  height: 140px;
 }
 
-.Faq {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.sponsors-section .sponsors .sponsor img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
-.Faq h1 {
-  text-align: center;
-}
-
-.Faq .accordion {
-  max-width: 600px;
-  margin: 2rem auto;
-}
-
-.Faq .accordion-item :hover {
-  background-color: #16545d;
-  opacity: 0.6;
-}
-
-.Faq .accordion-item .accordion-title {
+.faqs-container .faqs {
+  border-top: 6px solid #4ecbc4;
+  padding-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -515,18 +507,44 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  cursor: pointer;
-  background-color: #16545d;
-  padding: 1rem;
-  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.Faq .accordion-item .accordion-content {
-  background-color: white;
-  padding: 1rem;
+.faqs-container .faqs .accordion-item {
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.faqs-container .faqs .accordion-item .accordion-button {
+  background: #16545d;
+  color: white;
+  border: none;
+  -webkit-box-shadow: 0 3px 3px #c4c4c4;
+          box-shadow: 0 3px 3px #c4c4c4;
+}
+
+.faqs-container .faqs .accordion-item .accordion-button::after {
+  display: none;
+}
+
+.faqs-container .faqs .accordion-item .accordion-button::before {
+  content: "> ";
+  font-family: "Share Tech Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  margin-right: .5rem;
+  font-size: larger;
+}
+
+.faqs-container .faqs .accordion-item .accordion-collapse {
+  border-bottom: 4px solid #4ecbc4;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 footer {

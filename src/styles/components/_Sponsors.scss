@@ -6,13 +6,22 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding: 1rem;
+        padding: 2rem;
 
         border-top: 6px solid $light_green;
 
         .sponsor {
             margin: 1rem;
             max-width: 100%;
+
+            width: 320px;
+            height: 140px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
         }
     }
 }

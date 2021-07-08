@@ -8,7 +8,7 @@ export default function Footer(props) {
     return (
       <div className="footer-container container">
         <div className="utada-container col-12 col-md-6">
-            <a href="http://uoftada.com">
+            <a href="http://uoftada.com" target="_blank" rel="noreferrer">
                 <img src={utadaImg} alt="UTADA" />
             </a>
             <code className="utada-text">University of Toronto <br /> Application Development Association</code>
@@ -16,7 +16,7 @@ export default function Footer(props) {
         <div className="footer-contents col-12 col-md-6 m-auto">
             <div className="contacts">
                 <div className="contact email">
-                    <a href="mailto:uoftada@gmail.com">
+                    <a href="mailto:uoftada@gmail.com" target="_blank" rel="noreferrer">
                         <img src={emailIcon} alt="uoftada@gmail.com" />
                     </a>
                 </div>
