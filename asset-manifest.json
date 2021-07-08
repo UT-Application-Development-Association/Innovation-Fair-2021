@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.032b64c5.chunk.css",
+    "main.js": "/static/js/main.e75ca26d.chunk.js",
+    "main.js.map": "/static/js/main.e75ca26d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a0e73321.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a0e73321.js.map",
+    "static/css/2.d45d6843.chunk.css": "/static/css/2.d45d6843.chunk.css",
+    "static/js/2.f51b9fb6.chunk.js": "/static/js/2.f51b9fb6.chunk.js",
+    "static/js/2.f51b9fb6.chunk.js.map": "/static/js/2.f51b9fb6.chunk.js.map",
+    "static/js/3.2f61651c.chunk.js": "/static/js/3.2f61651c.chunk.js",
+    "static/js/3.2f61651c.chunk.js.map": "/static/js/3.2f61651c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.032b64c5.chunk.css.map": "/static/css/main.032b64c5.chunk.css.map",
+    "static/js/2.f51b9fb6.chunk.js.LICENSE.txt": "/static/js/2.f51b9fb6.chunk.js.LICENSE.txt",
+    "static/media/avatar.c73f4d7f.jpg": "/static/media/avatar.c73f4d7f.jpg",
+    "static/media/banner.4d8a4f50.jpg": "/static/media/banner.4d8a4f50.jpg",
+    "static/media/china_telecom.a401a1fb.png": "/static/media/china_telecom.a401a1fb.png",
+    "static/media/community.422a0b9d.jpg": "/static/media/community.422a0b9d.jpg",
+    "static/media/favicon.7b4605c2.png": "/static/media/favicon.7b4605c2.png",
+    "static/media/fintelics.3defe2ab.png": "/static/media/fintelics.3defe2ab.png",
+    "static/media/health.e83d27c6.jpg": "/static/media/health.e83d27c6.jpg",
+    "static/media/organization.cfe4a274.jpg": "/static/media/organization.cfe4a274.jpg",
+    "static/media/qrcode.97920adc.jpg": "/static/media/qrcode.97920adc.jpg",
+    "static/media/utada.571d59ed.png": "/static/media/utada.571d59ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0e73321.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.f51b9fb6.chunk.js",
+    "static/css/main.032b64c5.chunk.css",
+    "static/js/main.e75ca26d.chunk.js"
+  ]
+}
