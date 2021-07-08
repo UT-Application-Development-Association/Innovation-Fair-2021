@@ -8,7 +8,6 @@ export default function Timeline(props) {
         <Heading text="TIMELINE" />
         <div className="timeline-container">
             <TimelineItem from="2021-07-02" to="2021-07-16" title="Team Sign-up Period" description="Registration opens for participants." />
-            <TimelineItem from="2021-07-18 9:00am" title="Team Ice-Breaking" description="Participating groups meet with the Event Hosting Parties." />
             <TimelineItem from="2021-07-24" to="2021-07-31" title="Workshop/Panel Talk" description="Industry representatives give workshops on relevant topics which will be followed by a Q&A session." />
             <TimelineItem from="2021-08-01 7:00pm" to="2021-08-06 3:00pm" title="Presentation Submission" description="Submissions will close at 3pm EST. One person from each group is expected to submit a presentation deck and other group information via google Form given to their emails." />
             <TimelineItem from="2021-08-06 7:00pm" title="Announcement of Presentation Schedule" description="UTADA will announce a detailed presentation agenda." />

@@ -46,10 +46,10 @@
       border: none;
 
       .accordion-button {
-        background: $dark_green;
-        color: white;
+        // background: white;
+        // color: white;
         border: none;
-        box-shadow: 0 3px 3px #c4c4c4;
+        box-shadow: 0 3px 3px #f1f1f1;
 
         &::after{
           display: none;
@@ -63,13 +63,16 @@
         }
       }
 
+      .accordion-button:not(.collapsed) {
+        background-color: $light_green;
+        color: white;
+      }
+
       .accordion-collapse {
         border-bottom: 4px solid $light_green;
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
       }
-
-      
     }
   }
 }

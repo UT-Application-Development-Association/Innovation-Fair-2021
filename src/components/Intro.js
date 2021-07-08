@@ -14,10 +14,10 @@ export default function Intro(props) {
                     provide University of Toronto’s students with cutting-edge insight and hands-on experience
                     within some of the most popular technological innovation areas.
                     <br /><br />
-                    Innovation Fair 2021 is returning with a theme of Post-Pandemic Era. United by our
-                    identity as UofT students, Innovation Fair 2021 seeks to expand the boundary of personal
-                    well-being, enhance the experience of communal living, and initiate a dialogue between
-                    individual students and the campus we live in.
+                    This event is open to all students at the University of Toronto regardless of their
+                    background, hoping to gain some incredible prototype developing experience through this
+                    event. It is recommended that the participants have an interest in computer programming,
+                    have a preliminary understanding of software development.
                 </p>
             </div>
         </div>
