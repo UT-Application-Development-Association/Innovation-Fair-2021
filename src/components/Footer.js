@@ -20,8 +20,8 @@ export default function Footer(props) {
                         <img src={emailIcon} alt="uoftada@gmail.com" />
                     </a>
                 </div>
-                <div type="button" className="contact wechat"  data-bs-toggle="modal" data-bs-target="#qrCodeModal">
-                        <img src={wechatIcon} alt="UT助手" />
+                <div className="contact wechat"  data-bs-toggle="modal" data-bs-target="#qrCodeModal">
+                    <img src={wechatIcon} alt="UT助手" />
                 </div>
             </div>
         </div>

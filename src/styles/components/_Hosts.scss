@@ -39,6 +39,19 @@
             width: $avatar-size;
             
             margin-right: .4rem;
+            transition-duration: .5s;
+
+            &:hover {
+                background: linear-gradient(45deg, $light_green 0%, $yellow 100%);
+                animation: morph 3s ease-in-out infinite;
+                border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+                // height: calc(110px + 4vw);
+                // width: calc(110px + 4vw);
+                transition: all .3s ease-in-out;
+                transform: scale(1.1);
+                
+                z-index: 5;
+            }
 
             img {
                 width: $avatar-size;
@@ -48,7 +61,7 @@
                 transition-duration: .3s;
 
                 &:hover {
-                    transform: scale(1.1);
+                    transform: scale(.91);
                 }
             }
         }
@@ -64,4 +77,22 @@
             }
         }
     }
+}
+
+
+@keyframes morph {
+    0% {
+              border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+              background: linear-gradient(45deg, $light_green 0%, $yellow 100%);
+      } 
+      
+      50% {
+              border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
+              background: linear-gradient(45deg, $light_green 0%, $yellow 100%);
+      }
+    
+      100% {
+          border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+          background: linear-gradient(45deg, $light_green 0%, $yellow 100%);
+      } 
 }

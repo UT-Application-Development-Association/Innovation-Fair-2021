@@ -29,9 +29,8 @@ function Themes() {
           <div className="theme-title-container">
             <h5>Mental and Physical Health</h5>
             <p>
-              Mental and Physical Health
-              focuses on providing technical solutions to help integrate and enhance post-pandemic
-              individual’s well-being.
+              It’s difficult to keep healthy during the pandemic, both mental and physical, so we focuses on providing
+              technical solutions to help integrate and enhance post-pandemic individual’s well-being.
             </p>
           </div>
         </div>
@@ -44,9 +43,8 @@ function Themes() {
           <div className="theme-title-container">
             <h5>Productivity and Organization</h5>
             <p>
-              Productivity and Organization seeks to find technical solutions that
-              not only enhances individual student’s productivity but also expands to the wider student
-              community.
+              Most of the people must have the experience that it is harder to work or study in anew place. 
+              Innovations can not only enhances individual’s productivity but also expands to the wider community.
             </p>
           </div>
         </div>
@@ -58,8 +56,8 @@ function Themes() {
           <div className="theme-title-container">
             <h5>Community Building</h5>
             <p>
-              Community Building asks our participants to provide technical solutions that
-              help our college transition better in post-pandemic.
+            After prolonged period of waiting and expecting, we’re returning to the community that unites us as UofT students. 
+            Community building panel seeks to find the kind of technical creativity that help with a smoother transition to our community’s new normality.
             </p>
           </div>
         </div>

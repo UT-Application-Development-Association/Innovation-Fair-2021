@@ -1,7 +1,7 @@
 [
     {
         "title": "Who is eligible to participate?",
-        "content": "Anyone who is currently a student (undergraduate or master) is welcomed! If you have some knowledge about IT orinterests in any of the topics, this event is a perfect match. Please notice we only accept team sign-up (team of 2-5 persons)."
+        "content": "Anyone who is currently a student (undergraduate or master) is welcomed! If you have some knowledge about IT or interests in any of the topics, this event is a perfect match. Please notice we only accept team sign-up (team of 2-5 persons)."
       },
       {
         "title": "What can I get from the event?",
@@ -10,5 +10,17 @@
       {
         "title": "I feel my skills are not ready, should I sign up?",
         "content": "Of course you should! First, you are in a TEAM! This means you are not alone to build everything and your teammates are your backbone! Also, we have help sessions to improve your skills such as web design workshops and specific Q&A sessions focusing on your project."
+      },
+      {
+        "title": "Can I go to the workshop without signing up for the contest?",
+        "content": "We suggest anyone who is interested in software to join, but you can definitely attend our workshop without signing up for the contest."
+      },
+      {
+        "title": "What should I do if I don't have a partner yet?",
+        "content": "We have both a wechat group and a discord server for team formation and contact with us, please see the contact section for more information."
+      },
+      {
+        "title": "What kind of project do I need to submit?",
+        "content": "We accept any kind of prototype as long as it can show us your idea and design. We suggest using either code or adobe xd."
       }
 ]

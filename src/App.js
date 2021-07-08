@@ -11,7 +11,7 @@ import Themes from "./components/Themes";
 import Timeline from "./components/Timeline";
 import Hosts from "./components/Hosts";
 import Sponsors from "./components/Sponsors";
-import FAQ from "./components/faq/FAQ";
+import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer";
 
 
@@ -32,7 +32,7 @@ function App() {
         <section className="timeline-section" id="timeline">
           <Timeline/>
         </section>
-        <section className="hosts-section" id="hosts">
+        <section className="hosts-section" id="guests">
           <Hosts/>
         </section>
         <section className="sponsors-section" id="sponsors">

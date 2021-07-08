@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
 .App section:nth-child(even) {
@@ -12,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 div, p, span {
-  font-family: "Noto Sans JP", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: calc(1rem + .05vw);
 }
 
@@ -279,7 +278,7 @@ section {
   width: 250px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: start;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
 }
@@ -290,7 +289,7 @@ section {
 }
 
 .themes-container .themes .theme-1:hover p {
-  height: 140px;
+  height: 200px;
   opacity: 1;
 }
 
@@ -300,7 +299,7 @@ section {
 }
 
 .themes-container .themes .theme-2:hover p {
-  height: 140px;
+  height: 200px;
   opacity: 1;
 }
 
@@ -310,7 +309,7 @@ section {
 }
 
 .themes-container .themes .theme-3:hover p {
-  height: 140px;
+  height: 200px;
   opacity: 1;
 }
 
@@ -438,6 +437,20 @@ section {
   height: calc(100px + 4vw);
   width: calc(100px + 4vw);
   margin-right: .4rem;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.hosts-section .host-card .avatar-container:hover {
+  background: linear-gradient(45deg, #4ecbc4 0%, #ffe76f 100%);
+  -webkit-animation: morph 3s ease-in-out infinite;
+          animation: morph 3s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 5;
 }
 
 .hosts-section .host-card .avatar-container img {
@@ -451,8 +464,8 @@ section {
 }
 
 .hosts-section .host-card .avatar-container img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(0.91);
+          transform: scale(0.91);
 }
 
 .hosts-section .host-card .host-info-container {
@@ -467,6 +480,36 @@ section {
 
 .hosts-section .host-card .host-info-container .title {
   text-align: center;
+}
+
+@-webkit-keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, #4ecbc4 0%, #ffe76f 100%);
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background: linear-gradient(45deg, #4ecbc4 0%, #ffe76f 100%);
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, #4ecbc4 0%, #ffe76f 100%);
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, #4ecbc4 0%, #ffe76f 100%);
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background: linear-gradient(45deg, #4ecbc4 0%, #ffe76f 100%);
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, #4ecbc4 0%, #ffe76f 100%);
+  }
 }
 
 .sponsors-section .sponsors {
@@ -638,6 +681,7 @@ footer .footer-container .footer-contents .contacts .contact {
   padding-left: 15px;
   padding-right: 15px;
   border: 3px solid white;
+  cursor: pointer;
 }
 
 footer .footer-container .footer-contents .contacts .contact img {
@@ -661,7 +705,7 @@ footer .footer-container .copyright {
   font-size: small;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   footer .footer-container .copyright {
     width: 90%;
   }

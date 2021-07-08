@@ -90,7 +90,7 @@
         width: $box-size;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        text-align: start;
         transition-duration: .5s;
       }
     }
@@ -99,9 +99,11 @@
       background-image: linear-gradient($light_green 0%, $light_green 100%);
     }
 
+    $text-box-height: 200px;
+
     .theme-1:hover{
       p {
-        height: 140px;
+        height: $text-box-height;
         opacity: 1;
       }
     } 
@@ -112,7 +114,7 @@
 
     .theme-2:hover{
       p {
-        height: 140px;
+        height: $text-box-height;
         opacity: 1;
       }
     } 
@@ -123,7 +125,7 @@
 
     .theme-3:hover{
       p {
-        height: 140px;
+        height: $text-box-height;
         opacity: 1;
       }
     } 

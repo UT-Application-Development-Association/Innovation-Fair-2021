@@ -12,7 +12,7 @@ export default function Header(props) {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <div className="navbar-nav me-auto mb-2 mb-lg-0">
               <a className="nav-link" href="#timeline">Timeline</a>
-              <a className="nav-link" href="#hosts">Hosts</a>
+              <a className="nav-link" href="#guests">Guests</a>
               <a className="nav-link" href="#sponsors">Sponsors</a>
               <a className="nav-link" href="#FAQ">FAQs</a>
               <a className="nav-link" href="https://if2020.uoftada.com/" target="_blank" rel="noreferrer">IF2020</a>
