@@ -29,8 +29,7 @@ function Themes() {
           <div className="theme-title-container">
             <h5>Mental and Physical Health</h5>
             <p>
-              It’s difficult to keep healthy during the pandemic, both mental and physical, so we focuses on providing
-              technical solutions to help integrate and enhance post-pandemic individual’s well-being.
+            Self-isolation challenges our ability to keep mental and physical health by changing our daily routines and disrupting our internal and external balance. How can technical solutions help protect us from physical illness as well as re-balancing our internal well-being?
             </p>
           </div>
         </div>
@@ -43,8 +42,7 @@ function Themes() {
           <div className="theme-title-container">
             <h5>Productivity and Organization</h5>
             <p>
-              Most of the people must have the experience that it is harder to work or study in anew place. 
-              Innovations can not only enhances individual’s productivity but also expands to the wider community.
+            Working and studying from home provided us with a unique experience that can be both difficult and revolutionary. How should technology be utilized to ensure personal organization and assert individual’s sense of control against the irregularities posed by the pandemic?
             </p>
           </div>
         </div>
@@ -56,8 +54,7 @@ function Themes() {
           <div className="theme-title-container">
             <h5>Community Building</h5>
             <p>
-            After prolonged period of waiting and expecting, we’re returning to the community that unites us as UofT students. 
-            Community building panel seeks to find the kind of technical creativity that help with a smoother transition to our community’s new normality.
+            Our family, friends, and communities have firmly stood by our side during the pandemic. As our community is heading towards its post-pandemic normality, how can we help to ensure its smooth transition into the new reunion?
             </p>
           </div>
         </div>

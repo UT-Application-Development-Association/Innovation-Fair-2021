@@ -12,6 +12,7 @@ import ParsaMah from "../assets/images/hosts/ParsaMah.jpeg";
 import JinishaB from "../assets/images/hosts/JinishaB.png";
 import KevinYan from "../assets/images/hosts/KevinYan.jpeg";
 import FelixGao from "../assets/images/hosts/FelixGao.jpeg";
+import AlaaYagoub from "../assets/images/hosts/AlaaYagoub.jpeg";
 
 export default function Hosts(props) {
     return (
@@ -26,7 +27,7 @@ export default function Hosts(props) {
           <HostCard avatar={JinishaB} name="Jinisha B." title="Sr. Fraud Deterrence Analyst at Scotiabank " />
           <HostCard avatar={KevinYan} name="Kevin Yan" title="Senior Developer at NielsenIQ" />
           <HostCard avatar={FelixGao} name="Felix Gao" title="Senior Business Analyst & Scrum Master at DBS Bank" />
-          <HostCard avatar={AnonymousAvatar} name="Alaa Yagoub" title="Tech Lead & Senior Manager at RBC" />
+          <HostCard avatar={AlaaYagoub} name="Alaa Yagoub" title="Tech Lead & Senior Manager at RBC" />
           <HostCard avatar={AnonymousAvatar} name="Xi Gong" title="Full Stack Developer at IBM™ AccessHub©" />
           {/* <HostCard avatar={AnonymousAvatar} name="Fengqing Yuan" title="Software Developer at Amazon" /> */}
         </div>

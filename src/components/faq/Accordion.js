@@ -18,8 +18,8 @@ export default function Accordion (props){
         </button>
       </h2>
       <div id={props.no} className="accordion-collapse collapse" aria-labelledby={"f" + props.no} data-bs-parent={"#" + props.parent}>
-        <div className="accordion-body">
-          {props.content}
+        <div className="accordion-body" dangerouslySetInnerHTML={{__html:props.content}}>
+          {/* {props.content} */}
         </div>
       </div>
     </div>

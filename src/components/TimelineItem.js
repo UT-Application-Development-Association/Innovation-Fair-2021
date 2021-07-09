@@ -11,7 +11,7 @@ export default function TimelineItem(props) {
             <h4>
               {props.title}
             </h4>
-            <p>{props.description}</p>
+            <p dangerouslySetInnerHTML={{__html:props.description}}></p>
         </div>
       </div>
     );
