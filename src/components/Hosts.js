@@ -21,7 +21,7 @@ export default function Hosts(props) {
         <div className="main-hosts-container">
           <HostCard avatar={RavenSun} name="Raven Sun" title="Tech Lead at Fintelic" />
           <HostCard avatar={DebinLi} name="Debin Li" title="Assistant Vice President - Senior Software Developer at Citi Bank" />
-          <HostCard avatar={ParsaMah} name="Parsa Mah" title="Postdoctoral Researcher at CRIM, Research Project Lead at AIML" />
+          <HostCard avatar={ParsaMah} name="Mah Parsa" title="Postdoctoral Researcher at CRIM, Research Project Lead at AIML" />
           <HostCard avatar={KrisChen} name="Kris Chen" title="DevOps Consultant at BMO Digital Banking" />    
           <HostCard avatar={AnonymousAvatar} name="Yusra Ai-Sharfi" title="Solution Architect at Amazon Web Service, previous Technology Specialist at Bell" />
           <HostCard avatar={JinishaB} name="Jinisha B." title="Sr. Fraud Deterrence Analyst at Scotiabank " />

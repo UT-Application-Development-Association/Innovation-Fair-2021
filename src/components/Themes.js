@@ -13,10 +13,9 @@ function Themes() {
       <Heading text="2021 THEMES" />
       <div className="themes-intro mx-auto my-2 col-md-8 col-12">
         <p>
-          Innovation Fair 2021 is returning with a theme of Post-Pandemic Era. United by our
-          identity as UofT students, Innovation Fair 2021 seeks to expand the boundary of personal
-          well-being, enhance the experience of communal living, and initiate a dialogue between
-          individual students and the campus we live in.
+          Innovation Fair 2021 is returning with a theme of <strong>Post-Pandemic Era</strong>. We seeks to expand 
+          the boundary of personal well-being, enhance the experience of communal living, and 
+          initiate a dialogue between individual students and the community we live in.
         </p>
       </div>
 

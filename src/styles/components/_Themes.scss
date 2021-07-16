@@ -19,6 +19,10 @@
     padding: 1rem;
     letter-spacing: 1px;
     text-align: start;
+
+    strong {
+      color: $red;
+    }
   }
 
   .themes {

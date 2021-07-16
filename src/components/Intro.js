@@ -10,14 +10,14 @@ export default function Intro(props) {
                 {/* <hr className="seperation-line"/> */}
                 <p className="description-text">
                     As UTADA’s annual celebration of humanistic aesthetics and technical brilliance, the
-                    Innovation Fair is a computer-programming based application design competition aiming to
-                    provide University of Toronto’s students with cutting-edge insight and hands-on experience
+                    Innovation Fair is a computer-programming-based <strong>application design competition</strong> aiming to
+                    provide students with cutting-edge insight and hands-on experience
                     within some of the most popular technological innovation areas.
                     <br /><br />
-                    This event is open to all students at the University of Toronto regardless of their
-                    background, hoping to gain some incredible prototype developing experience through this
-                    event. It is recommended that the participants have an interest in computer programming,
-                    have a preliminary understanding of software development.
+                    This event is open to all undergraduate and master students regardless of their
+                    technical background, hoping to gain some incredible prototype-developing experience through this
+                    event. It is recommended that the participants have an interest in computer programming or
+                    a preliminary understanding of software development.
                 </p>
             </div>
         </div>

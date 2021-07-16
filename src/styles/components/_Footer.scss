@@ -67,6 +67,11 @@ footer {
                     @media (max-width: 500px){
                         margin: 10px;
                     }
+                    
+                    transition-duration: .3s;
+                    &:hover {
+                        border: 3px solid #ffffff99;
+                    }
                 }
             }
         }

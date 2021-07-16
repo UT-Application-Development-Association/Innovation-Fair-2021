@@ -187,6 +187,10 @@ section {
   text-align: start;
 }
 
+.themes-container .themes-intro strong {
+  color: #ff6a6b;
+}
+
 .themes-container .themes {
   margin-top: 30px;
   display: -webkit-box;
@@ -517,19 +521,25 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 2rem;
   border-top: 6px solid #4ecbc4;
 }
 
 .sponsors-section .sponsors .sponsor {
-  margin: 1rem;
-  height: 250px;
-  max-width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .sponsors-section .sponsors .sponsor img {
@@ -537,6 +547,31 @@ section {
   max-width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.sponsors-section .sponsors .sponsor:nth-child(1) {
+  height: 90px;
+  max-width: 100%;
+}
+
+.sponsors-section .sponsors .sponsor:nth-child(2) {
+  height: 120px;
+  max-width: 100%;
+}
+
+.sponsors-section .sponsors .sponsor:nth-child(3) {
+  margin-top: 0;
+  height: 200px;
+  max-width: 70%;
+}
+
+.sponsors-section .sponsors:nth-child(2) {
+  padding-bottom: 0;
+}
+
+.sponsors-section .sponsors:nth-child(3) {
+  padding-top: 0;
+  border-top: none;
 }
 
 .faqs-container .faqs {
@@ -682,6 +717,8 @@ footer .footer-container .footer-contents .contacts .contact {
   padding-right: 15px;
   border: 3px solid white;
   cursor: pointer;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
 }
 
 footer .footer-container .footer-contents .contacts .contact img {
@@ -694,6 +731,10 @@ footer .footer-container .footer-contents .contacts .contact img {
   footer .footer-container .footer-contents .contacts .contact {
     margin: 10px;
   }
+}
+
+footer .footer-container .footer-contents .contacts .contact:hover {
+  border: 3px solid #ffffff99;
 }
 
 footer .footer-container .copyright {

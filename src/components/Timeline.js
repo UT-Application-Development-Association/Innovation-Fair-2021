@@ -11,7 +11,7 @@ export default function Timeline(props) {
             
             <TimelineItem from="2021-07-23 7:30pm" to="8:30pm" title="Workshop: Job Hunting Experience in the Technology Industry " description="Host: Debin Li, Assistant Vice President - Senior Software Developer at Citi Bank." />
             <TimelineItem from="2021-07-24 9:00pm" to="10:30pm" title="Workshop: Deployment，DevOps & MLOps" description="Host: Raven Sun, Director of Technology at Fintelics." />
-            <TimelineItem from="TBA" to="" title="Workshop: ML Appilication in Mental Health" description="An introduction of different ML models and its application in mental health research. <br/> Host: Parsa Mah, Postdoctoral Researcher at CRIM, Research Project Lead at AIML. " />
+            <TimelineItem from="TBA" to="" title="Workshop: ML Appilication in Mental Health" description="An introduction of different ML models and its application in mental health research. <br/> Host: Mah Parsa, Postdoctoral Researcher at CRIM, Research Project Lead at AIML. " />
             <TimelineItem from="TBA" to="" title="Workshop: Introduction to AWS" description="An introduction of different AWS services for small scope application development, such as S3, EC2, Lambda, DynamoDb. <br/>Host: Yusra Ai-Sharfi, Solution architect at Amazon Web Service, previous technology specialist at Bell." />
 
             {/* <TimelineItem from="2021-07-24" to="2021-07-31" title="Workshop/Panel Talk" description="Industry representatives give workshops on relevant topics which will be followed by a Q&A session." /> */}
