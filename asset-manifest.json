@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.71903d80.chunk.css",
-    "main.js": "/static/js/main.afea16ac.chunk.js",
-    "main.js.map": "/static/js/main.afea16ac.chunk.js.map",
+    "main.css": "/static/css/main.48b4e925.chunk.css",
+    "main.js": "/static/js/main.303fc8ca.chunk.js",
+    "main.js.map": "/static/js/main.303fc8ca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a0e73321.js",
     "runtime-main.js.map": "/static/js/runtime-main.a0e73321.js.map",
     "static/css/2.d45d6843.chunk.css": "/static/css/2.d45d6843.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.2f61651c.chunk.js.map": "/static/js/3.2f61651c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d45d6843.chunk.css.map": "/static/css/2.d45d6843.chunk.css.map",
-    "static/css/main.71903d80.chunk.css.map": "/static/css/main.71903d80.chunk.css.map",
+    "static/css/main.48b4e925.chunk.css.map": "/static/css/main.48b4e925.chunk.css.map",
     "static/js/2.f51b9fb6.chunk.js.LICENSE.txt": "/static/js/2.f51b9fb6.chunk.js.LICENSE.txt",
     "static/media/AlaaYagoub.01abeb1d.jpeg": "/static/media/AlaaYagoub.01abeb1d.jpeg",
     "static/media/DebinLi.196bbcf0.jpg": "/static/media/DebinLi.196bbcf0.jpg",
@@ -22,11 +22,12 @@
     "static/media/ParsaMah.b01ab601.jpeg": "/static/media/ParsaMah.b01ab601.jpeg",
     "static/media/RavenSun.c1421604.jpg": "/static/media/RavenSun.c1421604.jpg",
     "static/media/banner.4d8a4f50.jpg": "/static/media/banner.4d8a4f50.jpg",
-    "static/media/china_telecom.a401a1fb.png": "/static/media/china_telecom.a401a1fb.png",
+    "static/media/china_telecom.c4c60ffa.png": "/static/media/china_telecom.c4c60ffa.png",
     "static/media/community.ffec9668.jpg": "/static/media/community.ffec9668.jpg",
     "static/media/favicon.7b4605c2.png": "/static/media/favicon.7b4605c2.png",
-    "static/media/fintelics.3defe2ab.png": "/static/media/fintelics.3defe2ab.png",
+    "static/media/fintelics.5969a244.png": "/static/media/fintelics.5969a244.png",
     "static/media/health.45b87d42.jpg": "/static/media/health.45b87d42.jpg",
+    "static/media/kollection.76cf7a88.png": "/static/media/kollection.76cf7a88.png",
     "static/media/organization.79749173.jpg": "/static/media/organization.79749173.jpg",
     "static/media/qrcode.97920adc.jpg": "/static/media/qrcode.97920adc.jpg",
     "static/media/utada.571d59ed.png": "/static/media/utada.571d59ed.png"
@@ -35,7 +36,7 @@
     "static/js/runtime-main.a0e73321.js",
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.f51b9fb6.chunk.js",
-    "static/css/main.71903d80.chunk.css",
-    "static/js/main.afea16ac.chunk.js"
+    "static/css/main.48b4e925.chunk.css",
+    "static/js/main.303fc8ca.chunk.js"
   ]
 }
