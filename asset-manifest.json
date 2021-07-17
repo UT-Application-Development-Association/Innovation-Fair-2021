@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.48b4e925.chunk.css",
+    "main.css": "/static/css/main.ea0b9e1a.chunk.css",
     "main.js": "/static/js/main.303fc8ca.chunk.js",
     "main.js.map": "/static/js/main.303fc8ca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a0e73321.js",
@@ -12,7 +12,7 @@
     "static/js/3.2f61651c.chunk.js.map": "/static/js/3.2f61651c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d45d6843.chunk.css.map": "/static/css/2.d45d6843.chunk.css.map",
-    "static/css/main.48b4e925.chunk.css.map": "/static/css/main.48b4e925.chunk.css.map",
+    "static/css/main.ea0b9e1a.chunk.css.map": "/static/css/main.ea0b9e1a.chunk.css.map",
     "static/js/2.f51b9fb6.chunk.js.LICENSE.txt": "/static/js/2.f51b9fb6.chunk.js.LICENSE.txt",
     "static/media/AlaaYagoub.01abeb1d.jpeg": "/static/media/AlaaYagoub.01abeb1d.jpeg",
     "static/media/DebinLi.196bbcf0.jpg": "/static/media/DebinLi.196bbcf0.jpg",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.a0e73321.js",
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.f51b9fb6.chunk.js",
-    "static/css/main.48b4e925.chunk.css",
+    "static/css/main.ea0b9e1a.chunk.css",
     "static/js/main.303fc8ca.chunk.js"
   ]
 }
