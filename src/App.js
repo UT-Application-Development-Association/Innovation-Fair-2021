@@ -11,7 +11,7 @@ import Themes from "./components/Themes";
 import Timeline from "./components/Timeline";
 import Hosts from "./components/Hosts";
 import Sponsors from "./components/Sponsors";
-import FAQ from "./components/FAQ/FAQ";
+import FAQ from "./components/faq/FAQ";
 import Footer from "./components/Footer";
 
 
