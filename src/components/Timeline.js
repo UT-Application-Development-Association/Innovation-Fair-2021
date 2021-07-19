@@ -9,10 +9,10 @@ export default function Timeline(props) {
         <div className="timeline-container">
             <TimelineItem from="2021-07-09" to="2021-07-22" title="Team Sign-up Period" description="Registration opens for participants." />
             
-            <TimelineItem from="2021-07-23 7:30pm" to="8:30pm" title="Workshop: Job Hunting Experience in the Technology Industry " description="Host: Debin Li, Assistant Vice President - Senior Software Developer at Citi Bank." />
+            <TimelineItem from="2021-07-23 7:30pm" to="8:30pm" title="Workshop: Job Hunting Experience in the Technology Industry" description="Host: Debin Li, Assistant Vice President - Senior Software Developer at Citi Bank." />
             <TimelineItem from="2021-07-24 9:00pm" to="10:30pm" title="Workshop: Deployment，DevOps & MLOps" description="Host: Raven Sun, Director of Technology at Fintelics." />
-            <TimelineItem from="2021-07-27 8:00pm" to="9:00pm" title="Workshop: Introduction to AWS" description="An introduction of different AWS services for small scope application development, such as S3, EC2, Lambda, DynamoDb. <br/>Host: Yusra Ai-Sharfi, Solution architect at Amazon Web Service, previous technology specialist at Bell." />
-            <TimelineItem from="2021-07-28 9:00pm" to="10:00pm" title="Workshop: ML Appilication in Mental Health" description="An introduction of different ML models and its application in mental health research. <br/> Host: Mah Parsa, Postdoctoral Researcher at CRIM, Research Project Lead at AIML. " />
+            <TimelineItem from="2021-07-27 8:00pm" to="9:00pm" title="Workshop: Building a Serverless App on AWS" description="An introduction of different AWS services for small scope application development, such as S3, EC2, Lambda, DynamoDb. <br/>Host: Yusra Ai-Sharfi, Solution architect at Amazon Web Service." />
+            <TimelineItem from="2021-07-28 9:00pm" to="10:00pm" title="Workshop: ML Application in Neurodegenerative Disease" description="An introduction of different ML models and its application in mental health research. <br/> Host: Mah Parsa, Postdoctoral Researcher at CRIM, Research Project Lead at AIML. " />
             
             {/* <TimelineItem from="2021-07-24" to="2021-07-31" title="Workshop/Panel Talk" description="Industry representatives give workshops on relevant topics which will be followed by a Q&A session." /> */}
             <TimelineItem from="2021-08-01 7:00pm" to="2021-08-05 11:59pm" title="Presentation Submission" description="Submissions will close at 3pm EST. One person from each group is expected to submit a presentation deck and other group information via google Form given to their emails." />
