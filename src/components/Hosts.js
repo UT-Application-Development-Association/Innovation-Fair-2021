@@ -8,6 +8,7 @@ import AnonymousAvatar from "../assets/images/favicon.png";
 import KrisChen from "../assets/images/hosts/KrisChen.jpg";
 import RavenSun from "../assets/images/hosts/RavenSun.jpg";
 import DebinLi from "../assets/images/hosts/DebinLi.jpg";
+import KarenTang from "../assets/images/hosts/KarenTang.jpg";
 import ParsaMah from "../assets/images/hosts/ParsaMah.jpeg";
 import JinishaB from "../assets/images/hosts/JinishaB.png";
 import KevinYan from "../assets/images/hosts/KevinYan.jpeg";
@@ -24,7 +25,8 @@ export default function Hosts(props) {
           <HostCard avatar={ParsaMah} name="Mah Parsa" title="Postdoctoral Researcher at CRIM, Research Project Lead at AIML" />
           <HostCard avatar={KrisChen} name="Kris Chen" title="DevOps Consultant at BMO Digital Banking" />    
           <HostCard avatar={AnonymousAvatar} name="Yusra Al-Sharafi" title="Solutions Architect at Amazon Web Service, previous Technology Specialist at Bell" />
-          <HostCard avatar={JinishaB} name="Jinisha B." title="Sr. Fraud Deterrence Analyst at Scotiabank " />
+          <HostCard avatar={KarenTang} name="Karen Tang" title="Technology Campus Recruiter at Citi" />
+          <HostCard avatar={JinishaB} name="Jinisha B." title="Sr AML Analyst at AML Rightsource" />
           <HostCard avatar={KevinYan} name="Kevin Yan" title="Senior Developer at NielsenIQ" />
           <HostCard avatar={FelixGao} name="Felix Gao" title="Senior Business Analyst & Scrum Master at DBS Bank" />
           <HostCard avatar={AlaaYagoub} name="Alaa Yagoub" title="Tech Lead & Senior Manager at RBC" />
