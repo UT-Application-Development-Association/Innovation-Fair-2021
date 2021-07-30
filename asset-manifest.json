@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ea0b9e1a.chunk.css",
-    "main.js": "/static/js/main.ce260358.chunk.js",
-    "main.js.map": "/static/js/main.ce260358.chunk.js.map",
+    "main.js": "/static/js/main.dc1a6dbb.chunk.js",
+    "main.js.map": "/static/js/main.dc1a6dbb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a0e73321.js",
     "runtime-main.js.map": "/static/js/runtime-main.a0e73321.js.map",
     "static/css/2.d45d6843.chunk.css": "/static/css/2.d45d6843.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/AlaaYagoub.01abeb1d.jpeg": "/static/media/AlaaYagoub.01abeb1d.jpeg",
     "static/media/DebinLi.196bbcf0.jpg": "/static/media/DebinLi.196bbcf0.jpg",
     "static/media/JinishaB.0f31b27a.png": "/static/media/JinishaB.0f31b27a.png",
+    "static/media/KarenTang.e7a60df6.jpg": "/static/media/KarenTang.e7a60df6.jpg",
     "static/media/KevinYan.b78d27f6.jpeg": "/static/media/KevinYan.b78d27f6.jpeg",
     "static/media/KrisChen.c9b08423.jpg": "/static/media/KrisChen.c9b08423.jpg",
     "static/media/ParsaMah.b01ab601.jpeg": "/static/media/ParsaMah.b01ab601.jpeg",
@@ -37,6 +38,6 @@
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.f51b9fb6.chunk.js",
     "static/css/main.ea0b9e1a.chunk.css",
-    "static/js/main.ce260358.chunk.js"
+    "static/js/main.dc1a6dbb.chunk.js"
   ]
 }
